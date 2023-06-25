@@ -18,5 +18,5 @@ Note that the branch predictor system is not shown on the graph. A branch predic
 | imm[11\:0] || rs1 | 000 | rd | 0010011 | addi |
 | 0100000 | imm[4\:0] | rs1 | 101 | rd | 0010011 | srai |
 | imm[11\:0] || rs1 | 010 | rd | 0000011 | lw |
-| imm[11\:5] || rs2 | rs1 | 010 | imm[4\:0] | 0100011 | sw |
+| imm[11\:5] | rs2 | rs1 | 010 | imm[4\:0] | 0100011 | sw |
 | imm[12, 10\:5] | rs2 | rs1 | 000 | imm[4\:1, 11] | 1100011 | beq |
